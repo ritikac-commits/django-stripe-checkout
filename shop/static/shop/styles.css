@@ -1,0 +1,12 @@
+/* shop/static/shop/styles.css */
+body { background-color: #f6f8fb; }
+.navbar-brand { font-size: 1.15rem; letter-spacing: 0.2px; }
+.product-card img { height: 180px; object-fit: cover; border-bottom: 1px solid rgba(0,0,0,0.04); }
+.card-title { font-weight: 600; }
+.sticky-card { position: sticky; top: 20px; }
+.btn-success { background: linear-gradient(90deg,#0ea5a4,#06b6d4); border: none; }
+.btn-success:hover { filter: brightness(0.98); }
+@media (max-width: 991px) {
+  .sticky-card { position: static; }
+  .product-card img { height: 220px; }
+}
